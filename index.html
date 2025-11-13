@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Md Rifat Alam Pomil | Portfolio</title>
+  <meta name="description" content="AI educator & developer: Adjunct Lecturer at BRAC University and AI Coding Trainer at G2i. Projects in AI, data, and full-stack.">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Css Styles -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+
+  <!-- Minimal overrides to fix layout & interactions -->
+  <style>
+    :root { --header-h: 72px; }
+    html { scroll-behavior: smooth; }
+    .header{ border-bottom:0!important; box-shadow:none!important; background:#0a0119; }
+    .hero{ padding-top: var(--header-h); }
+    .hero__item{ height:520px; padding-top:120px; background-position:center top; }
+    .hero__text h1{ font-size:36px; line-height:52px; margin-bottom:14px; }
+    .hero__text span{ margin-bottom:10px; letter-spacing:1.5px; }
+    .hero__text .dp{ width:280px; height:280px; }
+    #about .section-title h2:after{ display:none!important; }
+    @media (min-width:992px){
+      #about .col-lg-7{ padding-left:40px; }
+      #about .row{ row-gap:18px; }
+    }
+    section, .anchor{ scroll-margin-top: var(--header-h); }
+
+    /* thumbnail helpers for certificates & detailed projects */
+    .thumb{
+      width:100%; max-height:220px; object-fit:cover;
+      border-radius:12px; margin-bottom:12px; box-shadow:0 6px 18px rgba(0,0,0,.22);
+    }
+    .meta-line{ color:#adadad; font-size:14px; margin:6px 0 10px; }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-12">
+          <div class="header__nav__option">
+            <nav class="header__nav__menu mobile-menu">
+              <ul>
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publication">Publication</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu-wrap"></div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero hero--ai-bg">
+    <div class="hero__item set-bg" data-setbg="img/ai-wall.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="hero__text">
+              <div class="dp-container">
+                <img class="dp" src="img/pomeloo.jpg" alt="Profile">
+              </div>
+              <span>AI Educator • Developer • Mentor</span>
+              <h1>Md Rifat Alam Pomil</h1>
+              <p>Adjunct Lecturer @ BRAC University • AI Coding Trainer @ G2i.</p>
+              <div class="mt-3">
+                <a href="#experience" class="primary-btn">Experience</a>
+                <a href="#projects" class="primary-btn" style="margin-left:16px">Projects</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="services spad">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="services__title">
+            <div class="section-title"><h2>About</h2></div>
+            <p>
+              Computer science educator and AI developer with experience designing comprehensive CS curricula and optimizing AI models via prompt engineering, curated datasets, and rigorous evaluation. Published in deep learning for thoracic complication detection; portfolio spans full-stack development, data analysis, and e-commerce solutions.
+            </p>
+
+            <!-- Contact Info with Social Links -->
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li><b>Email:</b> <a class="mail-link" href="mailto:rifatpomil@gmail.com" onclick="return openMail(event)">rifatpomil@gmail.com</a></li>
+                <li><b>Phone:</b> <a href="tel:+8801686334579">+880 1686-334-579</a></li>
+                <li><b>Location:</b> Dhaka, Bangladesh</li>
+              </ul>
+
+              <div class="social-links mt-3">
+                <h5 class="mb-2" style="color:#fff;font-weight:600;">Connect With Me</h5>
+                <div class="social-icons">
+                  <a href="mailto:rifatpomil@gmail.com" class="social-icon mail-link" title="Email" onclick="return openMail(event)"><i class="fa fa-envelope"></i></a>
+                  <a href="https://www.linkedin.com/in/rifatalampomil" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon"><i class="fa fa-linkedin"></i></a>
+                  <a href="https://github.com/Rifatpomil" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon"><i class="fa fa-github"></i></a>
+                  <a href="#phone" title="Phone" class="social-icon"><i class="fa fa-phone"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right column -->
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="soft-card h-100">
+                <h4 class="mb-2">Highlights</h4>
+                <ul class="list-unstyled mb-0">
+                  <li>Adjunct Lecturer @ BRAC University</li>
+                  <li>AI Coding Trainer @ G2i</li>
+                  <li>IEEE SMC 2021 publication</li>
+                  <li>Full-stack & data pipelines</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="soft-card h-100">
+                <h4 class="mb-2">Focus Areas</h4>
+                <ul class="list-unstyled mb-0">
+                  <li>AI model optimization</li>
+                  <li>CS curriculum & pedagogy</li>
+                  <li>Web backends & APIs</li>
+                  <li>Data wrangling & viz</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 mt-3">
+              <div class="soft-card">
+                <h4 class="mb-2">Technologies</h4>
+                <div>
+                  <span class="badge-skill">Python</span>
+                  <span class="badge-skill">Java</span>
+                  <span class="badge-skill">JavaScript</span>
+                  <span class="badge-skill">C</span>
+                  <span class="badge-skill">SQL</span>
+                  <span class="badge-skill">HTML/CSS</span>
+                  <span class="badge-skill">PyTorch</span>
+                  <span class="badge-skill">TensorFlow</span>
+                  <span class="badge-skill">Flask</span>
+                  <span class="badge-skill">Django</span>
+                  <span class="badge-skill">Spring Boot</span>
+                  <span class="badge-skill">Linux</span>
+                  <span class="badge-skill">Git</span>
+                  <span class="badge-skill">GCP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /right column -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="team spad set-bg" data-setbg="img/ai-pic.jpg">
+    <div class="container">
+      <div class="row"><div class="col-lg-12"><div class="section-title team__title"><span></span><h2>Experience</h2></div></div></div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="soft-card mb-4">
+            <img src="img/exp/bracu.jpg" alt="" class="thumb">
+            <h4 class="mb-1">Adjunct Lecturer — BRAC University</h4>
+            <p class="meta-line"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; <i class="fa fa-calendar"></i> Fall 2021 – Present</p>
+            <ul>
+              <li>Developed course materials for SAD, OS, SE, DSA, DBMS with hands-on projects.</li>
+              <li>Led live-coding workshops and problem-solving sessions.</li>
+              <li>Designed real-world aligned assessments with detailed feedback.</li>
+              <li>Contributed curriculum updates with industry case studies.</li>
+            </ul>
+          </div>
+
+          <div class="soft-card mb-4">
+            <img src="img/exp/g2i.jpg" alt="" class="thumb">
+            <h4 class="mb-1">AI Coding Trainer — G2i</h4>
+            <p class="meta-line"><i class="fa fa-map-marker"></i> Florida, United States &nbsp; | &nbsp; <i class="fa fa-calendar"></i> Jul 2024 – Present</p>
+            <ul>
+              <li>Optimized AI models with prompt/training strategies.</li>
+              <li>Built datasets and experiments; documented procedures and metrics.</li>
+              <li>Aligned technical capabilities with product objectives.</li>
+            </ul>
+          </div>
+
+          <div class="soft-card mb-4">
+            <img src="img/exp/st.jpg" alt="" class="thumb">
+            <h4 class="mb-1">Student Tutor - BRAC University</h4>
+            <p class="meta-line"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; <i class="fa fa-calendar"></i> <span>2019 – 2021</span></p>
+            <ul>
+              <li>Supported core courses Programming Language I and Programming Language II through labs, tutorials, and weekly office hours.</li>
+              <li>Ran 1:1 and small-group sessions focused on fundamentals and problem-solving for under-performing students.</li>
+              <li>Created practice problems and step-by-step walkthroughs aligned with course outcomes, coordinating with instructors.</li>
+            </ul>
+          </div>
+
+          <div class="soft-card">
+            <img src="img/exp/maestro.jpg" alt="" class="thumb">
+            <h4 class="mb-1">Course Instructor — EduMaestro</h4>
+            <p class="meta-line"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; <i class="fa fa-calendar"></i> <span>2018 – 2021</span></p>
+            <ul>
+              <li>Taught O-/A-Level classes in Physics, Mathematics, and Accounting.</li>
+              <li>Designed lesson plans, worksheets, and mock exams mapped to Edexcel/Cambridge syllabi.</li>
+              <li>Coached exam strategy and time management; provided individualized feedback and progress updates.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="latest spad">
+    <div class="container">
+      <div class="row"><div class="col-lg-12"><div class="section-title center-title"><span></span><h2>Education</h2></div></div></div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="timeline">
+            <div class="timeline-item soft-card">
+              <h4 class="mb-1">B.Sc. in Computer Science — BRAC University</h4>
+              <p class="mb-2"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; 2017–2021 &nbsp; | &nbsp; CGPA: 3.88/4</p>
+              <ul class="mb-0">
+                <li>VC's List ×5 (Top 2%), Dean's List ×3 (Top 5%).</li>
+                <li>Relevant Coursework: DSA, SE, Neural Nets, Discrete Math, AI, OS, DBMS, Networks.</li>
+              </ul>
+            </div>
+            <div class="timeline-item soft-card">
+              <h4 class="mb-1">A-Level — Mangrove School (Edexcel)</h4>
+              <p class="mb-2"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; 2014–2016 &nbsp; | &nbsp; CGPA: 3.88/4</p>
+              <p class="mb-0">Grades: 2×A* , 1×A • Daily Star "Certificate of Excellence".</p>
+            </div>
+            <div class="timeline-item soft-card">
+              <h4 class="mb-1">O-Level — Mastermind School (Edexcel)</h4>
+              <p class="mb-2"><i class="fa fa-map-marker"></i> Dhaka, Bangladesh &nbsp; | &nbsp; 2014 &nbsp; | &nbsp; CGPA: 3.88/4</p>
+              <p class="mb-0">Grades: 4×A* , 2×A • Daily Star "Certificate of Excellence".</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates (Experience-style) -->
+<section id="certificates" class="team spad set-bg" data-setbg="img/ai1.jpg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="section-title team__title">
+          <h2>Certificates &amp; Achievements</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+
+        <!-- Covid-19 Combatants Unification Competition -->
+        <div class="soft-card mb-4">
+          <img src="img/certificates/covid-combatants-2020.jpg" alt="Certificate of Achievement — Covid-19 Combatants Unification Competition 2020" class="thumb">
+          <h4 class="mb-1">Certificate of Achievement — Covid-19 Combatants Unification Competition</h4>
+          <p class="meta-line"><i class="fa fa-calendar"></i> 2020 &nbsp; | &nbsp; IEEE Computer Society, BRACU Student Branch</p>
+          <ul>
+            <li>Awarded for a problem-based brainstorming submission during the online competition.</li>
+            <li>Event aimed to foster innovation and creativity among students during the pandemic.</li>
+          </ul>
+        </div>
+
+        <!-- High Achiever Award (Canadian University of Bangladesh) -->
+        <div class="soft-card mb-4">
+          <img src="img/certificates/high-achiever-cub-2016.jpg" alt="High Achiever Award — Canadian University of Bangladesh" class="thumb">
+          <h4 class="mb-1">Certificate of Achievement — Bangladesh High Achiever Award</h4>
+          <p class="meta-line"><i class="fa fa-calendar"></i> 5 Nov 2016 &nbsp; | &nbsp; Canadian University of Bangladesh</p>
+          <ul>
+            <li>Honored for outstanding academic performance at the High Achiever Award Ceremony.</li>
+          </ul>
+        </div>
+
+        <!-- Merit Scholarship (BRAC University) -->
+        <div class="soft-card mb-4">
+          <img src="img/certificates/bracu-merit-scholarship-2018.jpg" alt="Merit Scholarship Award — BRAC University" class="thumb">
+          <h4 class="mb-1">Merit Scholarship Award — BRAC University</h4>
+          <p class="meta-line"><i class="fa fa-calendar"></i> Summer 2017 - Spring 2021</p>
+          <ul>
+            <li>Received a <b>50% tuition fee waiver</b> based on strong semester results and consistent academic excellence from 2017 to 2021.</li>
+          </ul>
+        </div>
+
+        <!-- Business Game Winner (ACCA Bangladesh & LCBS Dhaka) -->
+        <div class="soft-card mb-4">
+          <img src="img/certificates/acca-business-game-winner.jpg" alt="Appreciation Letter — Business Game Winner (ACCA Bangladesh & LCBS Dhaka)" class="thumb">
+          <h4 class="mb-1">Appreciation Letter — Business Game Winner</h4>
+          <p class="meta-line"><i class="fa fa-calendar"></i> 2016 &nbsp; | &nbsp; ACCA Bangladesh &amp; LCBS Dhaka</p>
+          <ul>
+            <li>Winner of a jointly organized business game; recognized by ACCA Bangladesh for performance and participation.</li>
+          </ul>
+        </div>
+
+        <!-- IEEE Face the Case Competition -->
+        <div class="soft-card mb-4">
+          <img src="img/certificates/ieee-face-the-case-2020.jpg" alt="Certificate of Participation — IEEE Face the Case Competition 2020" class="thumb">
+          <h4 class="mb-1">Certificate of Participation — IEEE “Face the Case” Competition</h4>
+          <p class="meta-line"><i class="fa fa-calendar"></i> 2020 &nbsp; | &nbsp; IEEE CUET Student Branch (with WIE, RAS &amp; SPS)</p>
+          <ul>
+            <li>Participated in an engineering case competition, presenting structured analysis and team solutions.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Projects (grid) -->
+  <section id="projects" class="work">
+    <div class="work__gallery container">
+      <div class="section-title center-title pb-4">
+        <span>Selected</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="project-card soft-card h-100">
+            <div class="work__item small__item set-bg" data-setbg="img/work/clara-medical.jpg" style="height:200px;border-radius:12px"></div>
+            <div class="p-3">
+              <h4 class="mb-1">Clara Medical Explainer</h4>
+              <p class="mb-2"><b>Python, Streamlit, AI/ML, Computer Vision</b></p>
+              <ul class="mb-0">
+                <li>Interactive web app to help users understand medical lab reports with AI-powered insights.</li>
+                <li>Supports CSV, Excel, PDF, and image uploads; extracts test results and highlights abnormalities.</li>
+                <li><a href="https://clara-medical-explainer.streamlit.app/" target="_blank" rel="noopener">Live Demo</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="project-card soft-card h-100">
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-2.jpg" style="height:200px;border-radius:12px"></div>
+            <div class="p-3">
+              <h4 class="mb-1">BDPropertyHub — Real Estate Market Analysis</h4>
+              <p class="mb-2"><b>Python, Selenium, BeautifulSoup, Pandas, Tableau</b></p>
+              <ul class="mb-0">
+                <li>Scraped 100k+ property listings from Bproperty; cleaned to 4,421 verified properties.</li>
+                <li>Data analysis dashboard revealing price disparities across Dhaka and Chittagong regions.</li>
+                <li><a href="https://github.com/Rifatpomil/BDPropertyHub" target="_blank" rel="noopener">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="project-card soft-card h-100">
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-5.jpg" style="height:200px;border-radius:12px"></div>
+            <div class="p-3">
+              <h4 class="mb-1">Student Management System</h4>
+              <p class="mb-2"><b>React, Spring Boot, MySQL, REST API</b></p>
+              <ul class="mb-0">
+                <li>Full-stack web application for managing student records, courses, and grading workflows.</li>
+                <li>Responsive React UI with React Hooks; RESTful backend with JPA/Hibernate for data persistence.</li>
+                <li><a href="https://github.com/Rifatpomil/StudentManagementSystem" target="_blank" rel="noopener">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects (Detailed, Experience-style) -->
+  <section id="projects-detailed" class="team spad set-bg" data-setbg="img/team-bg.jpg">
+    <div class="container">
+      <div class="row"><div class="col-lg-12"><div class="section-title team__title"><span></span><h2>Projects</h2></div></div></div>
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Clara Medical Explainer -->
+          <div class="soft-card mb-4">
+            <img src="img/projects/clara-medical.jpg" alt="Clara Medical Explainer" class="thumb">
+            <h4 class="mb-1">Clara Medical Explainer</h4>
+            <p class="meta-line"><i class="fa fa-cogs"></i> Tech Stack: Python, Streamlit, Computer Vision, AI/ML Models</p>
+            <ul>
+              <li>Built an AI-powered Streamlit application to help patients understand medical lab reports by extracting test results and highlighting abnormalities.</li>
+              <li>Supports multiple file formats (CSV, Excel, PDF, images) with intelligent data extraction and easy-to-understand explanations.</li>
+              <li><a href="https://clara-medical-explainer.streamlit.app/" target="_blank" rel="noopener">Live Demo</a></li>
+            </ul>
+          </div>
+
+          <!-- BDPropertyHub -->
+          <div class="soft-card mb-4">
+            <img src="img/projects/bdproperty.jpg" alt="BDPropertyHub Real Estate Analysis" class="thumb">
+            <h4 class="mb-1">BDPropertyHub</h4>
+            <p class="meta-line"><i class="fa fa-cogs"></i> Tech Stack: Python, Selenium, BeautifulSoup, Pandas, Jupyter Notebook, Tableau</p>
+            <ul>
+              <li>Engineered a complete data pipeline scraping 100k+ real estate listings from Bproperty; cleaned and validated down to 4,421 unique properties.</li>
+              <li>Created interactive Tableau dashboards revealing significant price disparities—Gulshan and Khulshi identified as most expensive regions in Dhaka and Chittagong respectively.</li>
+              <li><a href="https://github.com/Rifatpomil/BDPropertyHub" target="_blank" rel="noopener">GitHub Repository</a></li>
+            </ul>
+          </div>
+
+          <!-- Student Management System -->
+          <div class="soft-card mb-4">
+            <img src="img/projects/student-mgmt.jpg" alt="Student Management System" class="thumb">
+            <h4 class="mb-1">Student Management System</h4>
+            <p class="meta-line"><i class="fa fa-cogs"></i> Tech Stack: React, Spring Boot, MySQL, REST API, JPA/Hibernate</p>
+            <ul>
+              <li>Developed a comprehensive full-stack web application for managing academic records, course enrollment, and grading workflows.</li>
+              <li>Implemented responsive React frontend with Hooks for state management and Spring Boot RESTful backend with MySQL database integration.</li>
+              <li><a href="https://github.com/Rifatpomil/StudentManagementSystem" target="_blank" rel="noopener">GitHub Repository</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publication -->
+  <section id="publication" class="callto spad set-bg" data-setbg="img/callto-bg.jpg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <div class="callto__text">
+            <h2 class="mb-2">Publication</h2>
+            <p class="mb-3">"Multi-Stage Optimization of Deep Learning Model to Detect Thoracic Complications." Accepted at IEEE International Conference on Systems, Man, and Cybernetics (SMC), 2021 — Australia.</p>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9658904" target="_blank" rel="noopener noreferrer">Paper Link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills / Counters -->
+  <section id="skills" class="counter">
+    <div class="container">
+      <div class="counter__content">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter__item">
+              <div class="counter__item__text">
+                <img src="img/icons/ci-1.png" alt="">
+                <h2 class="counter_num">8+</h2>
+                <p>Core CS Courses Taught</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter__item second__item">
+              <div class="counter__item__text">
+                <img src="img/icons/ci-2.png" alt="">
+                <h2 class="counter_num">6</h2>
+                <p>Major Projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter__item third__item">
+              <div class="counter__item__text">
+                <img src="img/icons/ci-3.png" alt="">
+                <h2 class="counter_num">1</h2>
+                <p>IEEE Publication</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter__item four__item">
+              <div class="counter__item__text">
+                <img src="img/icons/ci-4.png" alt="">
+                <h2 class="counter_num">5+</h2>
+                <p>Years Coding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-lg-12">
+            <div class="soft-card">
+              <h4 class="mb-3">Toolbox</h4>
+              <div>
+                <span class="badge-skill">VS Code</span>
+                <span class="badge-skill">Eclipse</span>
+                <span class="badge-skill">PyTorch</span>
+                <span class="badge-skill">TensorFlow</span>
+                <span class="badge-skill">Flask</span>
+                <span class="badge-skill">Django</span>
+                <span class="badge-skill">Spring Boot</span>
+                <span class="badge-skill">Linux</span>
+                <span class="badge-skill">Git</span>
+                <span class="badge-skill">GCP</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Footer -->
+  <section id="contact" class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="footer__top__logo">
+              <a href="#home"><img src="img/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="footer__top__social">
+              <a href="mailto:rifatpomil@gmail.com" class="mail-link" onclick="return openMail(event)"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.linkedin.com/in/rifatalampomil" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+              <a href="https://github.com/Rifatpomil" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a>
+              <a href="#phone"><i class="fa fa-phone"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__option">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="footer__option__item">
+              <h5>Get in Touch</h5>
+              <p>Open to collaborations in AI education, model optimization, and full-stack engineering.</p>
+              <ul class="list-unstyled">
+                <li><b>Email:</b> <a class="mail-link" href="mailto:rifatpomil@gmail.com" onclick="return openMail(event)">rifatpomil@gmail.com</a></li>
+                <li><b>Phone:</b> <a href="tel:+8801686334579">+880 1686-334-579</a></li>
+                <li><b>Location:</b> Dhaka, Bangladesh</li>
+              </ul>
+
+              <div id="phone" class="phone-spot anchor" style="margin-top:12px;">
+                <a href="tel:+8801686334579" class="primary-btn">
+                  <i class="fa fa-phone"></i> +880 1686-334-579
+                </a>
+                <small style="display:block;color:#adadad;margin-top:6px;"></small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__option__item">
+              <h5>Quick Links</h5>
+              <ul>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#projects-detailed">Projects</a></li>
+                <li><a href="#publication">Publication</a></li>
+                <li><a href="#skills">Skills</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p>&copy; <script>document.write(new Date().getFullYear());</script> Md Rifat Alam Pomil. Built on a customized template.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Js Plugins -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/masonry.pkgd.min.js"></script>
+  <script src="js/jquery.slicknav.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Email fallback: try mailto, then Gmail compose if no handler -->
+  <script>
+    function openMail(e){
+      e.preventDefault();
+      var email = 'rifatpomil@gmail.com';
+      window.location.href = 'mailto:' + email;
+      setTimeout(function(){
+        if (document.hasFocus()) {
+          window.open('https://mail.google.com/mail/?view=cm&fs=1&to=' + encodeURIComponent(email), '_blank', 'noopener');
+        }
+      }, 600);
+      return false;
+    }
+  </script>
+</body>
+</html>
